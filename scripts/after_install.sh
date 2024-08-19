@@ -6,3 +6,6 @@ cd /home/ec2-user/react-raid-tracker-frontend >> /home/ec2-user/react-raid-track
 
 echo 'npm install' >> /home/ec2-user/react-raid-tracker-frontend/deploy.log 
 npm install >> /home/ec2-user/react-raid-tracker-frontend/deploy.log
+
+echo 'npm run build' >> /home/ec2-user/react-raid-tracker-frontend/deploy.log 
+npm run build >> /home/ec2-user/react-raid-tracker-frontend/deploy.log
